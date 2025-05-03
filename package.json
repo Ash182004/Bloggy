@@ -8,7 +8,7 @@
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
     "start": "node backend/index.js",
     "client": "npm start --prefix frontend",
-    "server": "node backend/index.js",
+    "server": "node backend/index.js"
   },
   "keywords": [],
   "author": "",
