@@ -1,14 +1,14 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "Backend/index.js",
   "type": "module",
   "scripts": {
-    "dev": "node backend/index.js",
+    "dev": "node Backend/index.js",
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
-    "start": "node backend/index.js",
+    "start": "node Backend/index.js",
     "client": "npm start --prefix frontend",
-    "server": "node backend/index.js"
+    "server": "node Backend/index.js"
   },
   "keywords": [],
   "author": "",
